@@ -82,28 +82,24 @@ jobs:
 
           required_map = {
               "metadataId": "metadata-id",
-              "ogc_feature_api": "ogc-feature-api",
               "output_directory": "output-directory",
               "product_slug": "product-slug",
               "updated": "updated",
           }
           optional_map = {
+              "ogc_feature_api": "ogc-feature-api",
               "xmi_url": "xmi-model",
           }
 
           missing = [
               k
               for k in required_map
-              if k != "ogc_feature_api" and not values.get(k)
+              if not values.get(k)
           ]
           if missing:
               raise SystemExit(
                   "Missing required keys in config.yml: "
                   + ", ".join(missing)
-              )
-          if not values.get("ogc_feature_api") and not values.get("xmi_url"):
-              raise SystemExit(
-                  "Config must include either ogc_feature_api or xmi_url"
               )
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as gh_out:
