@@ -7,8 +7,8 @@ skinparam class {
 
 package "Objekttyper" {
 
-  class UndersoekelsesrettType <<featureType>> {
-    + geometry [1] : gml
+  class Undersoekelsesrett <<featureType>> {
+    + geometry [1] : GM_MultiSurface
     + Rettighetsnummer [0..1] : CharacterString
     + Rettighetsnavn [0..1] : CharacterString
     + Rettighetstype [0..1] : CharacterString
@@ -29,8 +29,8 @@ package "Objekttyper" {
     + Årsavgift_sats [0..1] : int
   }
 
-  class UtvinningsrettType <<featureType>> {
-    + geometry [1] : gml
+  class Utvinningsrett <<featureType>> {
+    + geometry [1] : GM_MultiSurface
     + Rettighetsnummer [0..1] : CharacterString
     + Rettighetsnavn [0..1] : CharacterString
     + Rettighetstype [0..1] : CharacterString
@@ -51,8 +51,8 @@ package "Objekttyper" {
     + Årsavgift_sats [0..1] : int
   }
 
-  class UndersoekelsesrapportType <<featureType>> {
-    + geometry [1] : gml
+  class Undersoekelsesrapport <<featureType>> {
+    + geometry [1] : GM_MultiPoint
     + Rapportnummer [0..1] : CharacterString
     + Rapporttittel [0..1] : Boolean
     + Kommunenummer [0..1] : CharacterString
@@ -61,8 +61,8 @@ package "Objekttyper" {
     + Fylkesnavn [0..1] : CharacterString
   }
 
-  class KonsesjonType <<featureType>> {
-    + geometry [1] : gml
+  class Konsesjon <<featureType>> {
+    + geometry [1] : GM_MultiSurface
     + Konsesjonsnummer [0..1] : CharacterString
     + Uttaksnummer [0..1] : int
     + Uttaksnavn [0..1] : CharacterString
@@ -75,8 +75,8 @@ package "Objekttyper" {
     + Fylkesnavn [0..1] : CharacterString
   }
 
-  class AktsomhetssoneType <<featureType>> {
-    + geometry [1] : gml
+  class Aktsomhetssone <<featureType>> {
+    + geometry [1] : GM_Surface
     + Sikringstype [0..1] : CharacterString
     + Sikringsnummer [0..1] : int
     + Sikringsnavn [0..1] : CharacterString
@@ -86,8 +86,8 @@ package "Objekttyper" {
     + Fylkesnavn [0..1] : CharacterString
   }
 
-  class UttakType <<featureType>> {
-    + geometry [1] : gml
+  class Uttak <<featureType>> {
+    + geometry [1] : GM_Point
     + Uttaksnummer [0..1] : int
     + Uttaksnavn [0..1] : CharacterString
     + Driftsstatus [0..1] : CharacterString
