@@ -1,0 +1,469 @@
+[
+  {
+    "name": "UndersoekelsesrettType",
+    "description": "",
+    "geometry": {
+      "type": "gml",
+      "crs": [
+        "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+        "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "http://www.opengis.net/def/crs/EPSG/0/32633",
+        "http://www.opengis.net/def/crs/EPSG/0/4326",
+        "http://www.opengis.net/def/crs/EPSG/0/3857"
+      ],
+      "format": "gml"
+    },
+    "attributes": [
+      {
+        "name": "Rettighetsnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Rettighetsnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Rettighetstype",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Rettighetshaver",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Organisasjonsnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Mottatt",
+        "type": "date",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Godkjent",
+        "type": "date",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Mineral",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Areal_m2",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Årsavgift_nok",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Årsavgift_arealgrunnlag",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Årsavgift_kalenderår",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Årsavgift_sats",
+        "type": "int",
+        "cardinality": "0..1"
+      }
+    ]
+  },
+  {
+    "name": "UtvinningsrettType",
+    "description": "",
+    "geometry": {
+      "type": "gml",
+      "crs": [
+        "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+        "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "http://www.opengis.net/def/crs/EPSG/0/32633",
+        "http://www.opengis.net/def/crs/EPSG/0/4326",
+        "http://www.opengis.net/def/crs/EPSG/0/3857"
+      ],
+      "format": "gml"
+    },
+    "attributes": [
+      {
+        "name": "Rettighetsnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Rettighetsnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Rettighetstype",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Rettighetshaver",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Organisasjonsnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Mottatt",
+        "type": "date",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Godkjent",
+        "type": "date",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Mineral",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Areal_m2",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Årsavgift_nok",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Årsavgift_arealgrunnlag",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Årsavgift_kalenderår",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Årsavgift_sats",
+        "type": "int",
+        "cardinality": "0..1"
+      }
+    ]
+  },
+  {
+    "name": "UndersoekelsesrapportType",
+    "description": "",
+    "geometry": {
+      "type": "gml",
+      "crs": [
+        "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+        "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "http://www.opengis.net/def/crs/EPSG/0/32633",
+        "http://www.opengis.net/def/crs/EPSG/0/4326",
+        "http://www.opengis.net/def/crs/EPSG/0/3857"
+      ],
+      "format": "gml"
+    },
+    "attributes": [
+      {
+        "name": "Rapportnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Rapporttittel",
+        "type": "boolean",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      }
+    ]
+  },
+  {
+    "name": "KonsesjonType",
+    "description": "",
+    "geometry": {
+      "type": "gml",
+      "crs": [
+        "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+        "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "http://www.opengis.net/def/crs/EPSG/0/32633",
+        "http://www.opengis.net/def/crs/EPSG/0/4326",
+        "http://www.opengis.net/def/crs/EPSG/0/3857"
+      ],
+      "format": "gml"
+    },
+    "attributes": [
+      {
+        "name": "Konsesjonsnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Uttaksnummer",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Uttaksnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Konsesjonær",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Organisasjonsnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Foretaksnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      }
+    ]
+  },
+  {
+    "name": "AktsomhetssoneType",
+    "description": "",
+    "geometry": {
+      "type": "gml",
+      "crs": [
+        "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+        "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "http://www.opengis.net/def/crs/EPSG/0/32633",
+        "http://www.opengis.net/def/crs/EPSG/0/4326",
+        "http://www.opengis.net/def/crs/EPSG/0/3857"
+      ],
+      "format": "gml"
+    },
+    "attributes": [
+      {
+        "name": "Sikringstype",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Sikringsnummer",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Sikringsnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenummer",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnummer",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      }
+    ]
+  },
+  {
+    "name": "UttakType",
+    "description": "",
+    "geometry": {
+      "type": "gml",
+      "crs": [
+        "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+        "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "http://www.opengis.net/def/crs/EPSG/0/32633",
+        "http://www.opengis.net/def/crs/EPSG/0/4326",
+        "http://www.opengis.net/def/crs/EPSG/0/3857"
+      ],
+      "format": "gml"
+    },
+    "attributes": [
+      {
+        "name": "Uttaksnummer",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Uttaksnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Driftsstatus",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Produktgruppe",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Produkt",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Tiltakshaver",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Organisasjonsnummer",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Foretaksnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "ØSS",
+        "type": "boolean",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Driftsrapport",
+        "type": "boolean",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenummer",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnummer",
+        "type": "int",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      }
+    ]
+  }
+]
