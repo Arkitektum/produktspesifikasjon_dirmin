@@ -1,0 +1,108 @@
+@startuml
+title Uttak, konsesjoner og bergrettigheter - Objekttyper
+
+skinparam class {
+  AttributeIconSize 0
+}
+
+package "Objekttyper" {
+
+  class UndersoekelsesrettType <<featureType>> {
+    + geometry [1] : gml
+    + Rettighetsnummer [0..1] : CharacterString
+    + Rettighetsnavn [0..1] : CharacterString
+    + Rettighetstype [0..1] : CharacterString
+    + Rettighetshaver [0..1] : CharacterString
+    + Organisasjonsnummer [0..1] : CharacterString
+    + Status [0..1] : CharacterString
+    + Mottatt [0..1] : Date
+    + Godkjent [0..1] : Date
+    + Mineral [0..1] : CharacterString
+    + Kommunenummer [0..1] : CharacterString
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : CharacterString
+    + Fylkesnavn [0..1] : CharacterString
+    + Areal_m2 [0..1] : CharacterString
+    + Årsavgift_nok [0..1] : int
+    + Årsavgift_arealgrunnlag [0..1] : int
+    + Årsavgift_kalenderår [0..1] : int
+    + Årsavgift_sats [0..1] : int
+  }
+
+  class UtvinningsrettType <<featureType>> {
+    + geometry [1] : gml
+    + Rettighetsnummer [0..1] : CharacterString
+    + Rettighetsnavn [0..1] : CharacterString
+    + Rettighetstype [0..1] : CharacterString
+    + Rettighetshaver [0..1] : CharacterString
+    + Organisasjonsnummer [0..1] : CharacterString
+    + Status [0..1] : CharacterString
+    + Mottatt [0..1] : Date
+    + Godkjent [0..1] : Date
+    + Mineral [0..1] : CharacterString
+    + Kommunenummer [0..1] : CharacterString
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : CharacterString
+    + Fylkesnavn [0..1] : CharacterString
+    + Areal_m2 [0..1] : CharacterString
+    + Årsavgift_nok [0..1] : int
+    + Årsavgift_arealgrunnlag [0..1] : int
+    + Årsavgift_kalenderår [0..1] : int
+    + Årsavgift_sats [0..1] : int
+  }
+
+  class UndersoekelsesrapportType <<featureType>> {
+    + geometry [1] : gml
+    + Rapportnummer [0..1] : CharacterString
+    + Rapporttittel [0..1] : Boolean
+    + Kommunenummer [0..1] : CharacterString
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : CharacterString
+    + Fylkesnavn [0..1] : CharacterString
+  }
+
+  class KonsesjonType <<featureType>> {
+    + geometry [1] : gml
+    + Konsesjonsnummer [0..1] : CharacterString
+    + Uttaksnummer [0..1] : int
+    + Uttaksnavn [0..1] : CharacterString
+    + Konsesjonær [0..1] : CharacterString
+    + Organisasjonsnummer [0..1] : CharacterString
+    + Foretaksnavn [0..1] : CharacterString
+    + Kommunenummer [0..1] : CharacterString
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : CharacterString
+    + Fylkesnavn [0..1] : CharacterString
+  }
+
+  class AktsomhetssoneType <<featureType>> {
+    + geometry [1] : gml
+    + Sikringstype [0..1] : CharacterString
+    + Sikringsnummer [0..1] : int
+    + Sikringsnavn [0..1] : CharacterString
+    + Kommunenummer [0..1] : int
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : int
+    + Fylkesnavn [0..1] : CharacterString
+  }
+
+  class UttakType <<featureType>> {
+    + geometry [1] : gml
+    + Uttaksnummer [0..1] : int
+    + Uttaksnavn [0..1] : CharacterString
+    + Driftsstatus [0..1] : CharacterString
+    + Produktgruppe [0..1] : CharacterString
+    + Produkt [0..1] : CharacterString
+    + Tiltakshaver [0..1] : CharacterString
+    + Organisasjonsnummer [0..1] : int
+    + Foretaksnavn [0..1] : CharacterString
+    + ØSS [0..1] : Boolean
+    + Driftsrapport [0..1] : Boolean
+    + Kommunenummer [0..1] : int
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : int
+    + Fylkesnavn [0..1] : CharacterString
+  }
+}
+
+@enduml
