@@ -1,0 +1,35 @@
+@startuml
+title Uttak, konsesjoner og bergrettigheter - Objekttyper
+
+skinparam class {
+  AttributeIconSize 0
+}
+
+package "Objekttyper" {
+
+  class Undersoekelsesrett <<featureType>> {
+    + geometry [1] : Any
+  }
+
+  class Utvinningsrett <<featureType>> {
+    + geometry [1] : Any
+  }
+
+  class Undersoekelsesrapport <<featureType>> {
+    + geometry [1] : Any
+  }
+
+  class Konsesjon <<featureType>> {
+    + geometry [1] : Any
+  }
+
+  class Aktsomhetssone <<featureType>> {
+    + geometry [1] : Any
+  }
+
+  class Uttak <<featureType>> {
+    + geometry [1] : Any
+  }
+}
+
+@enduml
