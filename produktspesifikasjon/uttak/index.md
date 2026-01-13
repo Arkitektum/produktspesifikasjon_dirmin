@@ -67,7 +67,7 @@ Nedlastbare data om uttak, konsesjoner og bergrettigheter som faller innenfor Di
 
 
 
-![Uttak feature catalogue](uttak_feature_catalogue.png)
+<a href="uttak_feature_catalogue.png" title="Klikk for stor visning"><img src="uttak_feature_catalogue.png" alt="Uttak feature catalogue" style="max-width: 100%; height: auto;" /></a>
 
 #### Undersoekelsesrett
 
