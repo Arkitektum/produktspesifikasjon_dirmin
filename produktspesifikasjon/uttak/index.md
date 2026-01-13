@@ -69,10 +69,10 @@ Nedlastbare data om uttak, konsesjoner og bergrettigheter som faller innenfor Di
 
 ![Uttak feature catalogue](uttak_feature_catalogue.png)
 
-#### UndersoekelsesrettType
+#### Undersoekelsesrett
 
 Geometri:
-- type: gml
+- type: GM_MultiSurface
 - crs:
   - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
   - <a href="http://www.opengis.net/def/crs/EPSG/0/25833"><http://www.opengis.net/def/crs/EPSG/0/25833></a>
@@ -94,7 +94,7 @@ Egenskaper
     </tr>
     <tr>
       <th scope="row">Type:</th>
-      <td>gml</td>
+      <td>GM_MultiSurface</td>
     </tr>
   </tbody>
 </table>
@@ -477,10 +477,10 @@ Egenskaper
   </tbody>
 </table>
 
-#### UtvinningsrettType
+#### Utvinningsrett
 
 Geometri:
-- type: gml
+- type: GM_MultiSurface
 - crs:
   - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
   - <a href="http://www.opengis.net/def/crs/EPSG/0/25833"><http://www.opengis.net/def/crs/EPSG/0/25833></a>
@@ -502,7 +502,7 @@ Egenskaper
     </tr>
     <tr>
       <th scope="row">Type:</th>
-      <td>gml</td>
+      <td>GM_MultiSurface</td>
     </tr>
   </tbody>
 </table>
@@ -885,10 +885,10 @@ Egenskaper
   </tbody>
 </table>
 
-#### UndersoekelsesrapportType
+#### Undersoekelsesrapport
 
 Geometri:
-- type: gml
+- type: GM_MultiPoint
 - crs:
   - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
   - <a href="http://www.opengis.net/def/crs/EPSG/0/25833"><http://www.opengis.net/def/crs/EPSG/0/25833></a>
@@ -910,7 +910,7 @@ Egenskaper
     </tr>
     <tr>
       <th scope="row">Type:</th>
-      <td>gml</td>
+      <td>GM_MultiPoint</td>
     </tr>
   </tbody>
 </table>
@@ -1041,10 +1041,10 @@ Egenskaper
   </tbody>
 </table>
 
-#### KonsesjonType
+#### Konsesjon
 
 Geometri:
-- type: gml
+- type: GM_MultiSurface
 - crs:
   - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
   - <a href="http://www.opengis.net/def/crs/EPSG/0/25833"><http://www.opengis.net/def/crs/EPSG/0/25833></a>
@@ -1066,7 +1066,7 @@ Egenskaper
     </tr>
     <tr>
       <th scope="row">Type:</th>
-      <td>gml</td>
+      <td>GM_MultiSurface</td>
     </tr>
   </tbody>
 </table>
@@ -1281,10 +1281,10 @@ Egenskaper
   </tbody>
 </table>
 
-#### AktsomhetssoneType
+#### Aktsomhetssone
 
 Geometri:
-- type: gml
+- type: GM_Surface
 - crs:
   - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
   - <a href="http://www.opengis.net/def/crs/EPSG/0/25833"><http://www.opengis.net/def/crs/EPSG/0/25833></a>
@@ -1306,7 +1306,7 @@ Egenskaper
     </tr>
     <tr>
       <th scope="row">Type:</th>
-      <td>gml</td>
+      <td>GM_Surface</td>
     </tr>
   </tbody>
 </table>
@@ -1458,10 +1458,10 @@ Egenskaper
   </tbody>
 </table>
 
-#### UttakType
+#### Uttak
 
 Geometri:
-- type: gml
+- type: GM_Point
 - crs:
   - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
   - <a href="http://www.opengis.net/def/crs/EPSG/0/25833"><http://www.opengis.net/def/crs/EPSG/0/25833></a>
@@ -1483,7 +1483,7 @@ Egenskaper
     </tr>
     <tr>
       <th scope="row">Type:</th>
-      <td>gml</td>
+      <td>GM_Point</td>
     </tr>
   </tbody>
 </table>
