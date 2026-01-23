@@ -1,0 +1,7 @@
+metadataId: 3f59e82c-217b-4092-a1dc-6327a9c3bfbf
+output_directory: produktspesifikasjon
+product_slug: undersokelsesrapporter
+updated: 2026-01-23
+ogc_feature_api: https://dirmin.no/kart/server/wfs3/
+include_only_features:
+  - Undersoekelsesrapport

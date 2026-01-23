@@ -1,0 +1,8 @@
+metadataId: b3c319bd-910d-4663-8ce8-23a246afe879
+output_directory: produktspesifikasjon
+product_slug: bergrettigheter
+updated: 2026-01-23
+ogc_feature_api: https://dirmin.no/kart/server/wfs3/
+include_only_features:
+  - Undersoekelsesrett
+  - Utvinningsrett
