@@ -1,0 +1,72 @@
+@startuml
+title Bergrettigheter - Objekttyper
+
+skinparam backgroundColor #F5F5F5
+skinparam shadowing false
+skinparam RoundCorner 6
+skinparam ArrowColor #6C8198
+skinparam class {
+  BackgroundColor #FBF2E8
+  BorderColor #9C8578
+  FontColor #2D201A
+  HeaderBackgroundColor #EFE1D6
+  HeaderFontColor #2D201A
+  AttributeIconSize 0
+}
+skinparam note {
+  BackgroundColor #FFFFFF
+  BorderColor #6C8198
+  FontColor #2D201A
+}
+skinparam stereotypeCBackgroundColor #EAD9CE
+skinparam stereotypeCBorderColor #9C8578
+skinparam stereotypeCFontColor #2D201A
+
+package "Objekttyper" {
+
+  class Undersoekelsesrett <<featureType>> {
+    + geometry [1] : GM_MultiSurface
+    + Rettighetsnummer [0..1] : CharacterString
+    + Rettighetsnavn [0..1] : CharacterString
+    + Rettighetstype [0..1] : CharacterString
+    + Rettighetshaver [0..1] : CharacterString
+    + Organisasjonsnummer [0..1] : CharacterString
+    + Status [0..1] : CharacterString
+    + Mottatt [0..1] : Date
+    + Godkjent [0..1] : Date
+    + Mineral [0..1] : CharacterString
+    + Kommunenummer [0..1] : CharacterString
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : CharacterString
+    + Fylkesnavn [0..1] : CharacterString
+    + Areal_m2 [0..1] : CharacterString
+    + Årsavgift_nok [0..1] : int
+    + Årsavgift_arealgrunnlag [0..1] : int
+    + Årsavgift_kalenderår [0..1] : int
+    + Årsavgift_sats [0..1] : int
+  }
+
+  class Utvinningsrett <<featureType>> {
+    + geometry [1] : GM_MultiSurface
+    + Rettighetsnummer [0..1] : CharacterString
+    + Rettighetsnavn [0..1] : CharacterString
+    + Rettighetstype [0..1] : CharacterString
+    + Rettighetshaver [0..1] : CharacterString
+    + Organisasjonsnummer [0..1] : CharacterString
+    + Status [0..1] : CharacterString
+    + Mottatt [0..1] : Date
+    + Godkjent [0..1] : Date
+    + Mineral [0..1] : CharacterString
+    + Kommunenummer [0..1] : CharacterString
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : CharacterString
+    + Fylkesnavn [0..1] : CharacterString
+    + Areal_m2 [0..1] : CharacterString
+    + Årsavgift_nok [0..1] : int
+    + Årsavgift_arealgrunnlag [0..1] : int
+    + Årsavgift_kalenderår [0..1] : int
+    + Årsavgift_sats [0..1] : int
+  }
+}
+
+@enduml
