@@ -1,0 +1,139 @@
+{
+  "identification": {
+    "id": "424ae763-1a82-4c2a-aaa7-e90ed5dc30ec",
+    "title": "Aktsomhetskart for gamle gruver WMS",
+    "abstract": "Tjenesten viser stedfestete objekter relatert til nedlagt gruvedrift fra ulike kilder og indikerer områder som krever spesiell aktsomhet. Aktsomhetskartet inneholder data fra Direktoratet for mineralforvaltning (DMF) sitt interne gruvesikringsregister og fra en ekstern kilde (Statskog), og viser blant annet gruver, gruveåpninger og sikringer samt aktsomhetssoner knyttet til disse.\n\nDMF sitt interne gruvesikringsregister inneholder objekter der staten ved DMF har utført befaring på gamle nedlagte gruver, og inneholder ikke gruveområder der andre har hatt oppfølging, som for eksempel Statskog. Aktsomhetssonene knyttet til interne data er et polygon strukket 50 meter utenfor alle objekter knyttet til én bestemt gruve.\n\nKartlaget for eksterne data inneholder aktuelle punkter fra Kartverket sin M711-serie, der noen er registrert som en gruve. Det er lagt inn en 200 meter aktsomhetssone rundt disse punktene.\n\nVennligst bruk \"KONTAKT OSS\"-skjemaet på https://minit.dirmin.no/kart hvis du/dere ønsker å gi oss tilbakemeldinger knyttet til registreringene.",
+    "purpose": "Spatial planning, education, outdoor activities",
+    "keywords": [
+      "Gruvedrift",
+      "Mineralressurs",
+      "Aktsomhetskart",
+      "Gruve",
+      "DMF",
+      "dirmin",
+      "Norge fastland",
+      "Arealbruk",
+      "Geologi",
+      "Menneskers helse og sikkerhet",
+      "Mineralressurser",
+      "Rapporteringsenheter og områder med særlig forvaltning eller restriksjoner"
+    ],
+    "dates": {
+      "metadata": "2021-06-02"
+    },
+    "responsibleParties": [
+      {
+        "name": "Sikring og miljø",
+        "organization": "Direktoratet for mineralforvaltning",
+        "email": "post@dirmin.no",
+        "role": "owner"
+      },
+      {
+        "name": "IT-utvikling",
+        "organization": "Direktoratet for mineralforvaltning",
+        "email": "post@dirmin.no",
+        "role": "pointOfContact"
+      },
+      {
+        "name": "IT-utvikling",
+        "organization": "Direktoratet for mineralforvaltning",
+        "email": "post@dirmin.no",
+        "role": "publisher"
+      }
+    ],
+    "organizationLogoUrl": "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png"
+  },
+  "scope": {
+    "level": "service",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          2.0,
+          57.0,
+          33.0,
+          72.0
+        ],
+        "boundingBox": {
+          "west": 2.0,
+          "south": 57.0,
+          "east": 33.0,
+          "north": 72.0
+        }
+      }
+    },
+    "legalConstraints": {
+      "accessConstraints": "Åpne data",
+      "useConstraints": "Lisens",
+      "license": "Norsk lisens for offentlige data (NLOD)",
+      "licenseUrl": "http://data.norge.no/nlod/no/1.0",
+      "securityConstraints": "Ugradert"
+    }
+  },
+  "dataContent": {
+    "usage": "Arealplanlegging, undervisning, ferdsel i skog og mark"
+  },
+  "dataQuality": {
+    "scope": {
+      "level": "service"
+    }
+  },
+  "maintenance": {
+    "maintenanceFrequency": "Etter behov",
+    "maintenanceNote": "Arealplanlegging, undervisning, ferdsel i skog og mark"
+  },
+  "delivery": {
+    "distributions": [
+      {
+        "format": {
+          "format": "OGC:WMS"
+        },
+        "access": {
+          "href": "https://kart.dirmin.no/dirmin/services/GruvesikringsregisterBeta/MapServer/WmsServer?request=GetCapabilities&service=WMS",
+          "protocol": "OGC:WMS"
+        }
+      },
+      {
+        "title": "WMS-tjeneste",
+        "format": {
+          "format": "WMS-tjeneste"
+        },
+        "access": {
+          "href": "https://kart.dirmin.no/dirmin/services/GruvesikringsregisterBeta/MapServer/WmsServer?request=GetCapabilities&service=WMS",
+          "protocol": "OGC:WMS"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "standard": "ISO19115",
+    "standardVersion": "2003",
+    "metadataDate": "2021-06-02",
+    "language": "nor",
+    "pointOfContact": {
+      "organization": "Direktoratet for mineralforvaltning",
+      "email": "post@dirmin.no",
+      "role": "pointOfContact"
+    },
+    "identifiers": [
+      {
+        "authority": "geonorge",
+        "code": "424ae763-1a82-4c2a-aaa7-e90ed5dc30ec"
+      }
+    ],
+    "metadataUrl": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=424ae763-1a82-4c2a-aaa7-e90ed5dc30ec"
+  },
+  "links": [
+    {
+      "href": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=424ae763-1a82-4c2a-aaa7-e90ed5dc30ec",
+      "rel": "describedby",
+      "type": "application/xml",
+      "title": "Metadata (ISO 19139)"
+    },
+    {
+      "href": "https://kart.dirmin.no/dirmin/services/GruvesikringsregisterBeta/MapServer/WmsServer?request=GetCapabilities&service=WMS",
+      "rel": "enclosure",
+      "type": "text/html",
+      "title": "Nedlasting"
+    }
+  ]
+}
