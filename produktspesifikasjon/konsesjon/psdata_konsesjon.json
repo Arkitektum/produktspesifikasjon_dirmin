@@ -1,0 +1,114 @@
+{
+  "identification": {
+    "id": "5e1500e8-1967-4721-86c5-7e87b561feca",
+    "title": "Uttak, konsesjoner og bergrettigheter",
+    "abstract": "Nedlastbare data om uttak, konsesjoner og bergrettigheter som faller innenfor Direktoratet for mineralforvaltnings virkeområde.",
+    "keywords": [
+      "Hele landet",
+      "Geologi"
+    ],
+    "dates": {
+      "creation": "2024-04-24",
+      "publication": "2024-04-24",
+      "revision": "2024-04-24",
+      "metadata": "2024-10-31"
+    },
+    "responsibleParties": [
+      {
+        "organization": "Direktoratet for mineralforvaltning",
+        "email": "post@dirmin.no",
+        "role": "owner"
+      },
+      {
+        "organization": "Direktoratet for mineralforvaltning",
+        "email": "post@dirmin.no",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Direktoratet for mineralforvaltning",
+        "email": "post@dirmin.no",
+        "role": "publisher"
+      }
+    ],
+    "organizationLogoUrl": "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png"
+  },
+  "scope": {
+    "level": "dataset",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          2.0,
+          57.0,
+          33.0,
+          72.0
+        ],
+        "boundingBox": {
+          "west": 2.0,
+          "south": 57.0,
+          "east": 33.0,
+          "north": 72.0
+        }
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2024-04-24",
+            "2024-04-24"
+          ]
+        ]
+      }
+    },
+    "legalConstraints": {
+      "useConstraints": "Andre restriksjoner"
+    }
+  },
+  "dataQuality": {
+    "scope": {
+      "level": "dataset"
+    }
+  },
+  "maintenance": {
+    "maintenanceFrequency": "Etter behov"
+  },
+  "delivery": {
+    "distributions": [
+      {
+        "access": {
+          "href": "https://dirmin.no/data"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "standard": "ISO19115:Norsk versjon",
+    "standardVersion": "2003",
+    "metadataDate": "2024-10-31",
+    "language": "nor",
+    "pointOfContact": {
+      "organization": "Direktoratet for mineralforvaltning",
+      "email": "post@dirmin.no",
+      "role": "pointOfContact"
+    },
+    "identifiers": [
+      {
+        "authority": "geonorge",
+        "code": "5e1500e8-1967-4721-86c5-7e87b561feca"
+      }
+    ],
+    "metadataUrl": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=5e1500e8-1967-4721-86c5-7e87b561feca"
+  },
+  "links": [
+    {
+      "href": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=5e1500e8-1967-4721-86c5-7e87b561feca",
+      "rel": "describedby",
+      "type": "application/xml",
+      "title": "Metadata (ISO 19139)"
+    },
+    {
+      "href": "https://dirmin.no/data",
+      "rel": "enclosure",
+      "type": "text/html",
+      "title": "Nedlasting"
+    }
+  ]
+}
