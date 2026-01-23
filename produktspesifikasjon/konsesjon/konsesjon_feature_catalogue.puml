@@ -1,0 +1,42 @@
+@startuml
+title Uttak, konsesjoner og bergrettigheter - Objekttyper
+
+skinparam backgroundColor #F5F5F5
+skinparam shadowing false
+skinparam RoundCorner 6
+skinparam ArrowColor #6C8198
+skinparam class {
+  BackgroundColor #FBF2E8
+  BorderColor #9C8578
+  FontColor #2D201A
+  HeaderBackgroundColor #EFE1D6
+  HeaderFontColor #2D201A
+  AttributeIconSize 0
+}
+skinparam note {
+  BackgroundColor #FFFFFF
+  BorderColor #6C8198
+  FontColor #2D201A
+}
+skinparam stereotypeCBackgroundColor #EAD9CE
+skinparam stereotypeCBorderColor #9C8578
+skinparam stereotypeCFontColor #2D201A
+
+package "Objekttyper" {
+
+  class Konsesjon <<featureType>> {
+    + geometry [1] : GM_MultiSurface
+    + Konsesjonsnummer [0..1] : CharacterString
+    + Uttaksnummer [0..1] : int
+    + Uttaksnavn [0..1] : CharacterString
+    + Konsesjonær [0..1] : CharacterString
+    + Organisasjonsnummer [0..1] : CharacterString
+    + Foretaksnavn [0..1] : CharacterString
+    + Kommunenummer [0..1] : CharacterString
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : CharacterString
+    + Fylkesnavn [0..1] : CharacterString
+  }
+}
+
+@enduml
