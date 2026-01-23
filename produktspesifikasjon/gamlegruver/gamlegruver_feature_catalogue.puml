@@ -1,0 +1,39 @@
+@startuml
+title Aktsomhetskart for gamle gruver WMS - Objekttyper
+
+skinparam backgroundColor #F5F5F5
+skinparam shadowing false
+skinparam RoundCorner 6
+skinparam ArrowColor #6C8198
+skinparam class {
+  BackgroundColor #FBF2E8
+  BorderColor #9C8578
+  FontColor #2D201A
+  HeaderBackgroundColor #EFE1D6
+  HeaderFontColor #2D201A
+  AttributeIconSize 0
+}
+skinparam note {
+  BackgroundColor #FFFFFF
+  BorderColor #6C8198
+  FontColor #2D201A
+}
+skinparam stereotypeCBackgroundColor #EAD9CE
+skinparam stereotypeCBorderColor #9C8578
+skinparam stereotypeCFontColor #2D201A
+
+package "Objekttyper" {
+
+  class Aktsomhetssone <<featureType>> {
+    + geometry [1] : GM_Surface
+    + Sikringstype [0..1] : CharacterString
+    + Sikringsnummer [0..1] : int
+    + Sikringsnavn [0..1] : CharacterString
+    + Kommunenummer [0..1] : int
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : int
+    + Fylkesnavn [0..1] : CharacterString
+  }
+}
+
+@enduml
