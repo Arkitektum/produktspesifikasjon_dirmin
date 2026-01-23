@@ -1,0 +1,38 @@
+@startuml
+title Rapporter etter undersøkelser på statens mineraler WMS - Objekttyper
+
+skinparam backgroundColor #F5F5F5
+skinparam shadowing false
+skinparam RoundCorner 6
+skinparam ArrowColor #6C8198
+skinparam class {
+  BackgroundColor #FBF2E8
+  BorderColor #9C8578
+  FontColor #2D201A
+  HeaderBackgroundColor #EFE1D6
+  HeaderFontColor #2D201A
+  AttributeIconSize 0
+}
+skinparam note {
+  BackgroundColor #FFFFFF
+  BorderColor #6C8198
+  FontColor #2D201A
+}
+skinparam stereotypeCBackgroundColor #EAD9CE
+skinparam stereotypeCBorderColor #9C8578
+skinparam stereotypeCFontColor #2D201A
+
+package "Objekttyper" {
+
+  class Undersoekelsesrapport <<featureType>> {
+    + geometry [1] : GM_MultiPoint
+    + Rapportnummer [0..1] : CharacterString
+    + Rapporttittel [0..1] : Boolean
+    + Kommunenummer [0..1] : CharacterString
+    + Kommunenavn [0..1] : CharacterString
+    + Fylkesnummer [0..1] : CharacterString
+    + Fylkesnavn [0..1] : CharacterString
+  }
+}
+
+@enduml
