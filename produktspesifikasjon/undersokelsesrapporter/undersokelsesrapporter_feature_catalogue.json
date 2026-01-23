@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Undersoekelsesrapport",
+    "description": "",
+    "geometry": {
+      "type": "GM_MultiPoint",
+      "crs": [
+        "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+        "http://www.opengis.net/def/crs/EPSG/0/25833",
+        "http://www.opengis.net/def/crs/EPSG/0/32633",
+        "http://www.opengis.net/def/crs/EPSG/0/4326",
+        "http://www.opengis.net/def/crs/EPSG/0/3857"
+      ],
+      "format": "gml"
+    },
+    "attributes": [
+      {
+        "name": "Rapportnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Rapporttittel",
+        "type": "boolean",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Kommunenavn",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnummer",
+        "type": "string",
+        "cardinality": "0..1"
+      },
+      {
+        "name": "Fylkesnavn",
+        "type": "string",
+        "cardinality": "0..1"
+      }
+    ]
+  }
+]

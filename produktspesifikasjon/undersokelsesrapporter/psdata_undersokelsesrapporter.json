@@ -1,0 +1,152 @@
+{
+  "identification": {
+    "id": "3f59e82c-217b-4092-a1dc-6327a9c3bfbf",
+    "title": "Rapporter etter undersøkelser på statens mineraler WMS",
+    "abstract": "Rapporter etter undersøkelser på statens mineraler er rapportering av utførte undersøkelsesarbeider innenfor et område med undersøkelsesrettigheter. Dette kan være geologiske og geofysiske arbeider som er utført av rettighetshavere.\n\nTjenesten viser undersøkelsesrapporter som Direktoratet for mineralforvaltning (DMF) har mottatt, basert på rettigheter gitt etter mineralloven, og som er digitalt stedfestet (punkt) og godkjent.\n\nVennligst bruk \"KONTAKT OSS\"-skjemaet på https://minit.dirmin.no/kart hvis du/dere ønsker å gi oss tilbakemeldinger knyttet til registreringene.",
+    "purpose": "The mineral rights reports give an overview over the exploration work performed in areas with mineral rights in order to increase the knowledge of the mineral resources present.",
+    "keywords": [
+      "Statens mineraler",
+      "Bergrettigheter",
+      "Mineralogi",
+      "Petrologi",
+      "Geofysikk",
+      "Geokjemi",
+      "Prospektering",
+      "Leting",
+      "Undersøkelser",
+      "Mineral",
+      "Norge fastland",
+      "Geologi",
+      "Mineralressurser",
+      "DMF",
+      "dirmin"
+    ],
+    "dates": {
+      "creation": "2018-04-27",
+      "publication": "2018-04-27",
+      "metadata": "2023-01-12"
+    },
+    "responsibleParties": [
+      {
+        "name": "Mineralutvinning",
+        "organization": "Direktoratet for mineralforvaltning",
+        "email": "post@dirmin.no",
+        "role": "owner"
+      },
+      {
+        "name": "IT-utvikling",
+        "organization": "Direktoratet for mineralforvaltning",
+        "email": "post@dirmin.no",
+        "role": "pointOfContact"
+      },
+      {
+        "name": "IT-utvikling",
+        "organization": "Direktoratet for mineralforvaltning",
+        "email": "post@dirmin.no",
+        "role": "publisher"
+      }
+    ],
+    "organizationLogoUrl": "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png"
+  },
+  "scope": {
+    "level": "service",
+    "extent": {
+      "spatial": {
+        "bbox": [
+          2.0,
+          57.0,
+          33.0,
+          72.0
+        ],
+        "boundingBox": {
+          "west": 2.0,
+          "south": 57.0,
+          "east": 33.0,
+          "north": 72.0
+        }
+      },
+      "temporal": {
+        "interval": [
+          [
+            "2018-04-27",
+            "2018-04-27"
+          ]
+        ]
+      }
+    },
+    "legalConstraints": {
+      "accessConstraints": "Åpne data",
+      "useConstraints": "Lisens",
+      "license": "Norsk lisens for offentlige data (NLOD)",
+      "licenseUrl": "http://data.norge.no/nlod/no/1.0",
+      "securityConstraints": "Begrenset"
+    }
+  },
+  "dataContent": {
+    "usage": "Rapportene kan brukes til å få en oversikt over hva som er utført av arbeider i områder med bergrettigheter for å øke kunnskapen om de mineralske ressurser til stede."
+  },
+  "dataQuality": {
+    "scope": {
+      "level": "service"
+    }
+  },
+  "maintenance": {
+    "maintenanceFrequency": "Kontinuerlig",
+    "maintenanceNote": "Rapportene kan brukes til å få en oversikt over hva som er utført av arbeider i områder med bergrettigheter for å øke kunnskapen om de mineralske ressurser til stede."
+  },
+  "delivery": {
+    "distributions": [
+      {
+        "format": {
+          "format": "OGC:WMS"
+        },
+        "access": {
+          "href": "https://kart.dirmin.no/dirmin/services/UndersoekelseRapporter/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "protocol": "OGC:WMS"
+        }
+      },
+      {
+        "title": "WMS-tjeneste",
+        "format": {
+          "format": "WMS-tjeneste"
+        },
+        "access": {
+          "href": "https://kart.dirmin.no/dirmin/services/UndersoekelseRapporter/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "protocol": "OGC:WMS"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "standard": "ISO19115",
+    "standardVersion": "2003",
+    "metadataDate": "2023-01-12",
+    "language": "nor",
+    "pointOfContact": {
+      "organization": "Direktoratet for mineralforvaltning",
+      "email": "post@dirmin.no",
+      "role": "pointOfContact"
+    },
+    "identifiers": [
+      {
+        "authority": "geonorge",
+        "code": "3f59e82c-217b-4092-a1dc-6327a9c3bfbf"
+      }
+    ],
+    "metadataUrl": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=3f59e82c-217b-4092-a1dc-6327a9c3bfbf"
+  },
+  "links": [
+    {
+      "href": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=3f59e82c-217b-4092-a1dc-6327a9c3bfbf",
+      "rel": "describedby",
+      "type": "application/xml",
+      "title": "Metadata (ISO 19139)"
+    },
+    {
+      "href": "https://kart.dirmin.no/dirmin/services/UndersoekelseRapporter/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "rel": "enclosure",
+      "type": "text/html",
+      "title": "Nedlasting"
+    }
+  ]
+}
