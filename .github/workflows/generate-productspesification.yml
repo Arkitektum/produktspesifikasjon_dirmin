@@ -73,12 +73,29 @@ jobs:
               raise SystemExit(f"Config file not found: {config_path}") from exc
 
           values = {}
+          list_values = {}
+          current_list_key = None
           for raw in lines:
-              line = raw.split("#", 1)[0].strip()
-              if not line or ":" not in line:
+              stripped = raw.split("#", 1)[0].rstrip()
+              if not stripped.strip():
                   continue
-              key, value = line.split(":", 1)
-              values[key.strip()] = value.strip().strip("'").strip('"')
+              lstrip = stripped.lstrip()
+              if lstrip.startswith("- ") and current_list_key:
+                  item = lstrip[2:].strip().strip("'").strip('"')
+                  if item:
+                      list_values.setdefault(current_list_key, []).append(item)
+                  continue
+              if ":" not in stripped:
+                  continue
+              key, value = stripped.split(":", 1)
+              key = key.strip()
+              value = value.strip().strip("'").strip('"')
+              if value == "":
+                  current_list_key = key
+                  list_values.setdefault(key, [])
+                  continue
+              current_list_key = None
+              values[key] = value
 
           required_map = {
               "metadataId": "metadata-id",
@@ -102,6 +119,16 @@ jobs:
                   + ", ".join(missing)
               )
 
+          feature_filter = []
+          if list_values.get("include_only_features"):
+              feature_filter = list_values["include_only_features"]
+          elif values.get("include_only_features"):
+              feature_filter = [
+                  item.strip()
+                  for item in values["include_only_features"].split(",")
+                  if item.strip()
+              ]
+
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as gh_out:
               for source, dest in required_map.items():
                   if values.get(source):
@@ -110,11 +137,18 @@ jobs:
                   value = values.get(source)
                   if value:
                       gh_out.write(f"{dest}={value}\n")
+              if feature_filter:
+                  gh_out.write(
+                      "feature-type-filter="
+                      + ",".join(feature_filter)
+                      + "\n"
+                  )
           PY
 
       - id: prepare
         uses: arkitektum/ps.editor.actions@main
         with:
+          feature-type-filter: ${{ steps.config.outputs.feature-type-filter }}
           metadata-id: ${{ steps.config.outputs.metadata-id }}
           ogc-feature-api: ${{ steps.config.outputs.ogc-feature-api }}
           output-directory: ${{ steps.config.outputs.output-directory }}
