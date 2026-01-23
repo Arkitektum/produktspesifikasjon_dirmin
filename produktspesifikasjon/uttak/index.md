@@ -1,30 +1,22 @@
 ---
-title: "Uttak, konsesjoner og bergrettigheter"
+title: "Mineraluttak WMS"
 updated: "2026-01-13"
 organization: "Direktoratet for mineralforvaltning"
 logo: "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png"
 ---
 
-# Produktspesifikasjon: Uttak, konsesjoner og bergrettigheter
+# Produktspesifikasjon: Mineraluttak WMS
 
 ## Generelt om spesifikasjonen
 
 
 ### Unik identifisering
 
-5e1500e8-1967-4721-86c5-7e87b561feca
+04c24266-ef07-4649-9865-85ab51108999
 
 #### Fullstendig navn
 
-Uttak, konsesjoner og bergrettigheter
-
-#### Versjon
-
-2024-04-24
-
-### Referansedato
-
-2024-04-24
+Mineraluttak WMS
 
 ### Ansvarlig organisasjon
 
@@ -32,15 +24,21 @@ Direktoratet for mineralforvaltning
 
 ### Hovedtema
 
-Hele landet, Geologi
+Byggeråstoff, Løsmasser, Knust fjell, Pukk, Grus, Sand, Industrimineral, Malm, Naturstein, Mineraluttak, Gruve, Grustak, Dagbrudd, Mineral, DMF, dirmin, Norge fastland, Arealbruk, Mineralressurser, Rapporteringsenheter og områder med særlig forvaltning eller restriksjoner, Geologi
 
 ### Sammendrag
 
-Nedlastbare data om uttak, konsesjoner og bergrettigheter som faller innenfor Direktoratet for mineralforvaltnings virkeområde.
+Tjenesten viser den sist kjente aktivitetsstatus på mineraluttak som er registrert hos Direktoratet for mineralforvaltning (DMF), fordelt på produktgruppene byggeråstoff (løsmasser eller knust fjell), industrimineraler, metallisk malm og naturstein.
+
+Vennligst bruk "KONTAKT OSS"-skjemaet på <https://minit.dirmin.no/kart> hvis du/dere ønsker å gi oss tilbakemelding i forhold til registreringene.
+
+### Formål
+
+Arealplanlegging, kommuneplanens arealdel, detaljplanlegging
 
 ## Spesifikasjonsomfang
 
-**Nivå**: dataset
+**Nivå**: service
 
 **Utstrekning**:
 
@@ -51,15 +49,18 @@ Nedlastbare data om uttak, konsesjoner og bergrettigheter som faller innenfor Di
     - **sør**: 57.0
     - **øst**: 33.0
     - **nord**: 72.0
-- **tidsmessig**: - **intervall**: - 2024-04-24, 2024-04-24
 
 **Juridiske begrensninger**:
 
-- **Bruksbegrensninger**: Andre restriksjoner
+- **Tilgangsbegrensninger**: Åpne data
+- **Bruksbegrensninger**: Lisens
+- **Lisens**: Norsk lisens for offentlige data (NLOD)
+- **Lisenslenke**: <http://data.norge.no/nlod/no/1.0>
+- **Sikkerhetsbegrensninger**: Ugradert
 
 ## Innhold og struktur
 
-
+**Bruk**: Arealplanlegging, kommuneplanens arealdel, detaljplanlegging
 
 ### Datamodell
 
@@ -388,7 +389,7 @@ Egenskaper
 
 ## Kvalitet
 
-**Nivå**: dataset
+**Nivå**: service
 
 
 
@@ -396,21 +397,36 @@ Egenskaper
 
 ## Datavedlikehold
 
-**Vedlikeholdsfrekvens**: Etter behov
+**Vedlikeholdsfrekvens**: Kontinuerlig
+
+**Vedlikeholdsnotat**: Arealplanlegging, kommuneplanens arealdel, detaljplanlegging
+
+**Status**: Kontinuerlig oppdatert
 
 ## Leveranse
 
 **Distribusjoner**:
 
-- **tilgang**: - **lenke**: <https://dirmin.no/data>
+- **format**: - **format**: OGC:WMS
+  **tilgang**:
+
+  - **lenke**: <https://kart.dirmin.no/dirmin/services/UttaksregisterDMF/MapServer/WmsServer?request=GetCapabilities&service=WMS>
+  - **protokoll**: OGC:WMS
+
+- **tittel**: WMS-tjeneste
+  **format**: - **format**: WMS-tjeneste
+  **tilgang**:
+
+  - **lenke**: <https://kart.dirmin.no/dirmin/services/UttaksregisterDMF/MapServer/WmsServer?request=GetCapabilities&service=WMS>
+  - **protokoll**: OGC:WMS
 
 ## Metadata
 
-**Standard**: ISO19115:Norsk versjon
+**Standard**: ISO19115
 
 **Standardversjon**: 2003
 
-**Metadatadato**: 2024-10-31
+**Metadatadato**: 2021-06-02
 
 **språk**: nor
 
@@ -423,7 +439,7 @@ Egenskaper
 **Identifikatorer**:
 
 - **Utsteder**: geonorge
-  **kode**: 5e1500e8-1967-4721-86c5-7e87b561feca
+  **kode**: 04c24266-ef07-4649-9865-85ab51108999
 
 **Metadatalenke**:
-<https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=5e1500e8-1967-4721-86c5-7e87b561feca>
+<https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=04c24266-ef07-4649-9865-85ab51108999>

@@ -1,5 +1,5 @@
 @startuml
-title Uttak, konsesjoner og bergrettigheter - Objekttyper
+title Mineraluttak WMS - Objekttyper
 
 skinparam backgroundColor #F5F5F5
 skinparam shadowing false
