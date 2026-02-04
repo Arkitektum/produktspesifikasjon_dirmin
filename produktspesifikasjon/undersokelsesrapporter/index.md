@@ -226,6 +226,8 @@ Egenskaper
   </tbody>
 </table>
 
+
+
 ## Kvalitet
 
 **Nivå**: service
