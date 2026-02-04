@@ -302,6 +302,8 @@ Egenskaper
   </tbody>
 </table>
 
+
+
 ## Kvalitet
 
 **Nivå**: dataset

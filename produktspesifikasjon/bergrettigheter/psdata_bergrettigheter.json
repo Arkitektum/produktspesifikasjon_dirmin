@@ -40,8 +40,8 @@
     "dates": {
       "creation": "2009-06-01",
       "publication": "2009-06-01",
-      "revision": "2026-01-19",
-      "metadata": "2026-01-22"
+      "revision": "2026-02-02",
+      "metadata": "2026-02-03"
     },
     "responsibleParties": [
       {
@@ -76,7 +76,7 @@
         "interval": [
           [
             "2009-06-01",
-            "2026-01-19"
+            "2026-02-02"
           ]
         ]
       }
@@ -203,7 +203,7 @@
   "metadata": {
     "standard": "ISO19115",
     "standardVersion": "2003",
-    "metadataDate": "2026-01-22",
+    "metadataDate": "2026-02-03",
     "language": "nor",
     "pointOfContact": {
       "organization": "Direktoratet for mineralforvaltning",
