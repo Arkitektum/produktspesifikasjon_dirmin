@@ -1,5 +1,5 @@
 {
-  "identification": {
+  "identificationSection": {
     "id": "04c24266-ef07-4649-9865-85ab51108999",
     "title": "Mineraluttak WMS",
     "abstract": "Tjenesten viser den sist kjente aktivitetsstatus på mineraluttak som er registrert hos Direktoratet for mineralforvaltning (DMF), fordelt på produktgruppene byggeråstoff (løsmasser eller knust fjell), industrimineraler, metallisk malm og naturstein.\n\nVennligst bruk \"KONTAKT OSS\"-skjemaet på https://minit.dirmin.no/kart hvis du/dere ønsker å gi oss tilbakemelding i forhold til registreringene.",
@@ -85,10 +85,10 @@
       "level": "service"
     }
   },
-  "maintenance": {
-    "maintenanceFrequency": "Kontinuerlig",
+  "maintenanceSection": {
+    "maintenanceAndUpdateFrequency": "Kontinuerlig",
     "maintenanceNote": "Arealplanlegging, kommuneplanens arealdel, detaljplanlegging",
-    "status": "Kontinuerlig oppdatert"
+    "maintenanceAndUpdateStatement": "Kontinuerlig oppdatert"
   },
   "delivery": {
     "distributions": [
