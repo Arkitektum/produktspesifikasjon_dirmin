@@ -1,5 +1,5 @@
 {
-  "identification": {
+  "identificationSection": {
     "id": "3f59e82c-217b-4092-a1dc-6327a9c3bfbf",
     "title": "Rapporter etter undersøkelser på statens mineraler WMS",
     "abstract": "Rapporter etter undersøkelser på statens mineraler er rapportering av utførte undersøkelsesarbeider innenfor et område med undersøkelsesrettigheter. Dette kan være geologiske og geofysiske arbeider som er utført av rettighetshavere.\n\nTjenesten viser undersøkelsesrapporter som Direktoratet for mineralforvaltning (DMF) har mottatt, basert på rettigheter gitt etter mineralloven, og som er digitalt stedfestet (punkt) og godkjent.\n\nVennligst bruk \"KONTAKT OSS\"-skjemaet på https://minit.dirmin.no/kart hvis du/dere ønsker å gi oss tilbakemeldinger knyttet til registreringene.",
@@ -90,8 +90,8 @@
       "level": "service"
     }
   },
-  "maintenance": {
-    "maintenanceFrequency": "Kontinuerlig",
+  "maintenanceSection": {
+    "maintenanceAndUpdateFrequency": "Kontinuerlig",
     "maintenanceNote": "Rapportene kan brukes til å få en oversikt over hva som er utført av arbeider i områder med bergrettigheter for å øke kunnskapen om de mineralske ressurser til stede."
   },
   "delivery": {
