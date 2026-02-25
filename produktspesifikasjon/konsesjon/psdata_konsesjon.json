@@ -1,5 +1,5 @@
 {
-  "identification": {
+  "identificationSection": {
     "id": "5e1500e8-1967-4721-86c5-7e87b561feca",
     "title": "Uttak, konsesjoner og bergrettigheter",
     "abstract": "Nedlastbare data om uttak, konsesjoner og bergrettigheter som faller innenfor Direktoratet for mineralforvaltnings virkeområde.",
@@ -67,8 +67,8 @@
       "level": "dataset"
     }
   },
-  "maintenance": {
-    "maintenanceFrequency": "Etter behov"
+  "maintenanceSection": {
+    "maintenanceAndUpdateFrequency": "Etter behov"
   },
   "delivery": {
     "distributions": [
