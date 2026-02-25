@@ -24,7 +24,7 @@ Bergrettigheter
 
 ### Referansedato
 
-2026-02-02
+2026-02-23
 
 ### Ansvarlig organisasjon
 
@@ -59,7 +59,7 @@ Rettigheter er definert av lov om erverv og utvinning av mineralressurser (miner
 **Utstrekning**:
 
 - **romlig**: - **romlig omfang**: National
-- **tidsmessig**: - **intervall**: - 2009-06-01, 2026-02-02
+- **tidsmessig**: - **intervall**: - 2009-06-01, 2026-02-23
 
 **Juridiske begrensninger**:
 
@@ -982,7 +982,7 @@ Datasettet brukes av myndighetene til å forvalte rettighetsområdene og å gi i
 
 **Standardversjon**: 2003
 
-**Metadatadato**: 2026-02-03
+**Metadatadato**: 2026-02-24
 
 **språk**: nor
 
