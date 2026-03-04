@@ -42,29 +42,14 @@ Spatial planning, education, outdoor activities
 
 ## Spesifikasjonsomfang
 
-**Nivå**: service
+- **Omfang**:
 
-**Utstrekning**:
-
-- **romlig**:
-  - **bbox**: 2.0, 57.0, 33.0, 72.0
-  - **avgrensning**:
-    - **vest**: 2.0
-    - **sør**: 57.0
-    - **øst**: 33.0
-    - **nord**: 72.0
-
-**Juridiske begrensninger**:
-
-- **Tilgangsbegrensninger**: Åpne data
-- **Bruksbegrensninger**: Lisens
-- **Lisens**: Norsk lisens for offentlige data (NLOD)
-- **Lisenslenke**: <http://data.norge.no/nlod/no/1.0>
-- **Sikkerhetsbegrensninger**: Ugradert
+  - **Identifikasjon**: hele datasettet
+  - **Nivå**: service
 
 ## Innhold og struktur
 
-**Bruk**: Arealplanlegging, undervisning, ferdsel i skog og mark
+**Beskrivelse**: Arealplanlegging, undervisning, ferdsel i skog og mark
 
 ### Datamodell
 
@@ -258,45 +243,61 @@ Egenskaper
 
 **Vedlikeholdsfrekvens**: Etter behov
 
-**Vedlikeholdsnotat**: Arealplanlegging, undervisning, ferdsel i skog og mark
-
 ## Leveranse
 
-**Distribusjoner**:
+- **Leveranse**:
 
-- **format**: - **format**: OGC:WMS
-  **tilgang**:
+  - **Leveransemedium**:
+    - **Medienavn**: OGC:WMS
+    - **Leveransetjeneste**:
+      - **Tjenesteendepunkt**: <https://kart.dirmin.no/dirmin/services/GruvesikringsregisterBeta/MapServer/WmsServer?request=GetCapabilities&service=WMS>
+      - **Tjenesteegenskap**:
+        - **type**: OGC:WMS
+        - **Verdi**: OGC:WMS
 
-  - **lenke**: <https://kart.dirmin.no/dirmin/services/GruvesikringsregisterBeta/MapServer/WmsServer?request=GetCapabilities&service=WMS>
-  - **protokoll**: OGC:WMS
+- **Leveranse**:
 
-- **tittel**: WMS-tjeneste
-  **format**: - **format**: WMS-tjeneste
-  **tilgang**:
-
-  - **lenke**: <https://kart.dirmin.no/dirmin/services/GruvesikringsregisterBeta/MapServer/WmsServer?request=GetCapabilities&service=WMS>
-  - **protokoll**: OGC:WMS
+  - **Leveransemedium**:
+    - **Medienavn**: WMS-tjeneste
+    - **Leveransetjeneste**:
+      - **Tjenesteendepunkt**: <https://kart.dirmin.no/dirmin/services/GruvesikringsregisterBeta/MapServer/WmsServer?request=GetCapabilities&service=WMS>
+      - **Tjenesteegenskap**:
+        - **type**: WMS-tjeneste
+        - **Verdi**: OGC:WMS
 
 ## Metadata
 
-**Standard**: ISO19115
+**Metadatastandard**: ISO19115
 
-**Standardversjon**: 2003
+**Metadatastandardversjon**: 2003
 
 **Metadatadato**: 2021-06-02
 
 **språk**: nor
 
-**Kontaktpunkt**:
+**Kontakt**:
 
-- **organisasjon**: Direktoratet for mineralforvaltning
-- **epost**: post@dirmin.no
+- **Organisasjon**: Direktoratet for mineralforvaltning
+- **Kontaktperson**: IT-utvikling
+- **Logo**: <https://register.geonorge.no/data/organizations/974760282_DMF_liten.png>
+- **Epost**: post@dirmin.no
 - **rolle**: pointOfContact
 
-**Identifikatorer**:
+**Metadataidentifikator**:
 
-- **Utsteder**: geonorge
-  **kode**: 424ae763-1a82-4c2a-aaa7-e90ed5dc30ec
+- **Utsteder**: Geonorge
+- **kode**: 424ae763-1a82-4c2a-aaa7-e90ed5dc30ec
+- **koderom**: <https://kartkatalog.geonorge.no/metadata/>
+- **Metadatalenke**: <https://kartkatalog.geonorge.no/metadata/424ae763-1a82-4c2a-aaa7-e90ed5dc30ec>
 
-**Metadatalenke**:
-<https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=424ae763-1a82-4c2a-aaa7-e90ed5dc30ec>
+**Lenker**:
+
+- **lenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=424ae763-1a82-4c2a-aaa7-e90ed5dc30ec>
+  **relasjon**: describedby
+  **type**: application/xml
+  **tittel**: Metadata (ISO 19139)
+
+- **lenke**: <https://kart.dirmin.no/dirmin/services/GruvesikringsregisterBeta/MapServer/WmsServer?request=GetCapabilities&service=WMS>
+  **relasjon**: enclosure
+  **type**: text/html
+  **tittel**: Nedlasting
