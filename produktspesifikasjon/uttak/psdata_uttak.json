@@ -1,10 +1,23 @@
 {
+  "title": "Mineraluttak WMS",
+  "contact": {
+    "organizationName": "Direktoratet for mineralforvaltning",
+    "logo": "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png",
+    "electronicMailAddress": "post@dirmin.no",
+    "role": "owner"
+  },
   "identificationSection": {
-    "id": "04c24266-ef07-4649-9865-85ab51108999",
     "title": "Mineraluttak WMS",
     "abstract": "Tjenesten viser den sist kjente aktivitetsstatus på mineraluttak som er registrert hos Direktoratet for mineralforvaltning (DMF), fordelt på produktgruppene byggeråstoff (løsmasser eller knust fjell), industrimineraler, metallisk malm og naturstein.\n\nVennligst bruk \"KONTAKT OSS\"-skjemaet på https://minit.dirmin.no/kart hvis du/dere ønsker å gi oss tilbakemelding i forhold til registreringene.",
-    "purpose": "Arealplanlegging, kommuneplanens arealdel, detaljplanlegging",
-    "keywords": [
+    "purpose": {
+      "summary": "Arealplanlegging, kommuneplanens arealdel, detaljplanlegging",
+      "useCase": {
+        "name": "Bruksområde",
+        "summary": "Arealplanlegging, kommuneplanens arealdel, detaljplanlegging"
+      }
+    },
+    "uniqueId": "04c24266-ef07-4649-9865-85ab51108999",
+    "keyword": [
       "Byggeråstoff",
       "Løsmasser",
       "Knust fjell",
@@ -27,122 +40,127 @@
       "Rapporteringsenheter og områder med særlig forvaltning eller restriksjoner",
       "Geologi"
     ],
-    "dates": {
-      "metadata": "2021-06-02"
+    "restriction": {
+      "legalConstraints": {
+        "accessConstraints": "Åpne data",
+        "useConstraints": "Lisens",
+        "license": "Norsk lisens for offentlige data (NLOD)",
+        "licenseUrl": "http://data.norge.no/nlod/no/1.0"
+      },
+      "securityConstraints": {
+        "classification": "Ugradert"
+      }
     },
-    "responsibleParties": [
+    "contact": [
       {
-        "organization": "Direktoratet for mineralforvaltning",
-        "email": "post@dirmin.no",
+        "organizationName": "Direktoratet for mineralforvaltning",
+        "electronicMailAddress": "post@dirmin.no",
         "role": "owner"
       },
       {
-        "name": "IT-utvikling",
-        "organization": "Direktoratet for mineralforvaltning",
-        "email": "post@dirmin.no",
+        "individualName": "IT-utvikling",
+        "organizationName": "Direktoratet for mineralforvaltning",
+        "electronicMailAddress": "post@dirmin.no",
         "role": "pointOfContact"
       },
       {
-        "name": "IT-utvikling",
-        "organization": "Direktoratet for mineralforvaltning",
-        "email": "post@dirmin.no",
+        "individualName": "IT-utvikling",
+        "organizationName": "Direktoratet for mineralforvaltning",
+        "electronicMailAddress": "post@dirmin.no",
         "role": "publisher"
       }
     ],
-    "organizationLogoUrl": "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png"
-  },
-  "scope": {
-    "level": "service",
+    "maintenance": "Kontinuerlig",
     "extent": {
-      "spatial": {
-        "bbox": [
-          2.0,
-          57.0,
-          33.0,
-          72.0
-        ],
-        "boundingBox": {
-          "west": 2.0,
-          "south": 57.0,
-          "east": 33.0,
-          "north": 72.0
-        }
+      "geographicElement": {
+        "westBoundLongitude": "2.0",
+        "eastBoundLongitude": "33.0",
+        "southBoundLatitude": "57.0",
+        "northBoundLatitude": "72.0"
       }
-    },
-    "legalConstraints": {
-      "accessConstraints": "Åpne data",
-      "useConstraints": "Lisens",
-      "license": "Norsk lisens for offentlige data (NLOD)",
-      "licenseUrl": "http://data.norge.no/nlod/no/1.0",
-      "securityConstraints": "Ugradert"
     }
   },
-  "dataContent": {
-    "usage": "Arealplanlegging, kommuneplanens arealdel, detaljplanlegging"
+  "scopeSection": [
+    {
+      "specificationScope": {
+        "scopeIdentification": "hele datasettet",
+        "level": "service"
+      }
+    }
+  ],
+  "dataContentAndStructureSection": {
+    "narrativeDescription": "Arealplanlegging, kommuneplanens arealdel, detaljplanlegging"
   },
-  "dataQuality": {
+  "dataQualitySection": {
     "scope": {
       "level": "service"
     }
   },
   "maintenanceSection": {
     "maintenanceAndUpdateFrequency": "Kontinuerlig",
-    "maintenanceNote": "Arealplanlegging, kommuneplanens arealdel, detaljplanlegging",
     "maintenanceAndUpdateStatement": "Kontinuerlig oppdatert"
   },
-  "delivery": {
-    "distributions": [
-      {
-        "format": {
-          "format": "OGC:WMS"
-        },
-        "access": {
-          "href": "https://kart.dirmin.no/dirmin/services/UttaksregisterDMF/MapServer/WmsServer?request=GetCapabilities&service=WMS",
-          "protocol": "OGC:WMS"
-        }
-      },
-      {
-        "title": "WMS-tjeneste",
-        "format": {
-          "format": "WMS-tjeneste"
-        },
-        "access": {
-          "href": "https://kart.dirmin.no/dirmin/services/UttaksregisterDMF/MapServer/WmsServer?request=GetCapabilities&service=WMS",
-          "protocol": "OGC:WMS"
+  "deliverySection": [
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "OGC:WMS",
+          "deliveryService": {
+            "serviceEndpoint": "https://kart.dirmin.no/dirmin/services/UttaksregisterDMF/MapServer/WmsServer?request=GetCapabilities&service=WMS",
+            "serviceProperty": {
+              "type": "OGC:WMS",
+              "value": "OGC:WMS"
+            }
+          }
         }
       }
-    ]
-  },
-  "metadata": {
-    "standard": "ISO19115",
-    "standardVersion": "2003",
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "WMS-tjeneste",
+          "deliveryService": {
+            "serviceEndpoint": "https://kart.dirmin.no/dirmin/services/UttaksregisterDMF/MapServer/WmsServer?request=GetCapabilities&service=WMS",
+            "serviceProperty": {
+              "type": "WMS-tjeneste",
+              "value": "OGC:WMS"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "metadataSection": {
+    "metadataStandard": "ISO19115",
+    "metadataStandardVersion": "2003",
     "metadataDate": "2021-06-02",
     "language": "nor",
-    "pointOfContact": {
-      "organization": "Direktoratet for mineralforvaltning",
-      "email": "post@dirmin.no",
+    "contact": {
+      "organizationName": "Direktoratet for mineralforvaltning",
+      "individualName": "IT-utvikling",
+      "logo": "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png",
+      "electronicMailAddress": "post@dirmin.no",
       "role": "pointOfContact"
     },
-    "identifiers": [
-      {
-        "authority": "geonorge",
-        "code": "04c24266-ef07-4649-9865-85ab51108999"
-      }
-    ],
-    "metadataUrl": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=04c24266-ef07-4649-9865-85ab51108999"
-  },
-  "links": [
-    {
-      "href": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=04c24266-ef07-4649-9865-85ab51108999",
-      "rel": "describedby",
-      "type": "application/xml",
-      "title": "Metadata (ISO 19139)"
+    "metadataIdentifier": {
+      "authority": "Geonorge",
+      "code": "04c24266-ef07-4649-9865-85ab51108999",
+      "codeSpace": "https://kartkatalog.geonorge.no/metadata/",
+      "metadataLinkage": "https://kartkatalog.geonorge.no/metadata/04c24266-ef07-4649-9865-85ab51108999"
     },
-    {
-      "href": "https://kart.dirmin.no/dirmin/services/UttaksregisterDMF/MapServer/WmsServer?request=GetCapabilities&service=WMS",
-      "rel": "enclosure",
-      "type": "text/html",
-      "title": "Nedlasting"
-    }
-  ]
+    "links": [
+      {
+        "href": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=04c24266-ef07-4649-9865-85ab51108999",
+        "rel": "describedby",
+        "type": "application/xml",
+        "title": "Metadata (ISO 19139)"
+      },
+      {
+        "href": "https://kart.dirmin.no/dirmin/services/UttaksregisterDMF/MapServer/WmsServer?request=GetCapabilities&service=WMS",
+        "rel": "enclosure",
+        "type": "text/html",
+        "title": "Nedlasting"
+      }
+    ]
+  }
 }
