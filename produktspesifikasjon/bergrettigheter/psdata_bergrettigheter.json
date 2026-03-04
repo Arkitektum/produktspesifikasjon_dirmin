@@ -1,11 +1,37 @@
 {
+  "title": "Bergrettigheter",
+  "date": {
+    "creation": "2009-06-01",
+    "revision": "2026-03-02"
+  },
+  "language": "nor",
+  "contact": {
+    "individualName": "Mineralutvinning",
+    "organizationName": "Direktoratet for mineralforvaltning",
+    "logo": "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png",
+    "electronicMailAddress": "post@dirmin.no",
+    "role": "owner"
+  },
   "identificationSection": {
-    "id": "b3c319bd-910d-4663-8ce8-23a246afe879",
     "title": "Bergrettigheter",
     "abstract": "Dataene viser områder som er belagt med bergrettigheter for statens mineraler, som definert av \"Lov om erverv og utvinning av mineralressurser (mineralloven)\" §7. Datasettet inneholder definerte områder for undersøkelses (UN)- og utvinningsretter (UT). Det kan være utstedt flere bergrettigheter for samme geografiske område; datasettet har overlappende flater, men de individuelle rettighetene har forskjellig prioritet. \nFørste prioritet gjelder basert på mottatt dato, beskrevet i attributtet InnsendtDato. Direktoratet for mineralforvaltning med Bergmesteren for Svalbard (DMF) er eier av datasettet. \nEn undersøkelsesrett på statens mineraler tildeles som en rett på et bestemt område, og ikke som en rettighet til en bestemt forekomst. Den som har undersøkelsesrett med best prioritet, dvs. den som søkte om retten først, har enerett til å søke om utvinningsrett etter minerallovens § 29. Gyldighet for undersøkelsesretter er 7 år fra best prioritet, utvinningsrettigheter har 10 års gyldighet. Rettigheter kan forlenges ved vedtak, jf. mineralloven § 23 og §§ 33 - 34.",
-    "purpose": "Rettigheter er definert av lov om erverv og utvinning av mineralressurser (mineralloven) §7. Undersøkelsesrettigheter er merket \"UN\", utvinningsrettigheter er merket \"UT\". Datasettet brukes av myndighetene til å forvalte rettighetsområdene og å gi interessenter innsyn i hvilke områder som er belagt, og inngår i WMS-tjenesten Bergrettigheter.",
-    "language": "nor",
-    "keywords": [
+    "purpose": {
+      "summary": "Rettigheter er definert av lov om erverv og utvinning av mineralressurser (mineralloven) §7. Undersøkelsesrettigheter er merket \"UN\", utvinningsrettigheter er merket \"UT\". Datasettet brukes av myndighetene til å forvalte rettighetsområdene og å gi interessenter innsyn i hvilke områder som er belagt, og inngår i WMS-tjenesten Bergrettigheter.",
+      "useCase": {
+        "name": "Bruksområde",
+        "summary": "Mineralske undersøkelser, arealplanlegging, kommuneplanens arealdel, detaljplanlegging"
+      }
+    },
+    "topicCategory": [
+      "Geovitenskapelig informasjon"
+    ],
+    "spatialRepresentationType": "Vektor",
+    "spatialResolution": {
+      "equivalentScale": "50000"
+    },
+    "supplementalInformation": "Rettigheter er definert av lov om erverv og utvinning av mineralressurser (mineralloven) §7. Undersøkelsesrettigheter er merket \"UN\", utvinningsrettigheter er merket \"UT\". Kandidat til det offentlige kartlaget (DOK).\nDatasettet brukes av myndighetene til å forvalte rettighetsområdene og å gi interessenter innsyn i hvilke områder som er belagt, og inngår i WMS-tjenesten Bergrettigheter. Kandidat til det offentlige kartlaget (DOK).",
+    "uniqueId": "b3c319bd-910d-4663-8ce8-23a246afe879",
+    "keyword": [
       "mineraler",
       "mineralske ressurser",
       "prospektering",
@@ -34,67 +60,73 @@
       "forlengetTilDato",
       "forfallsDato"
     ],
-    "topicCategories": [
-      "Geovitenskapelig informasjon"
-    ],
-    "dates": {
-      "creation": "2009-06-01",
-      "publication": "2009-06-01",
-      "revision": "2026-02-23",
-      "metadata": "2026-02-24"
+    "restriction": {
+      "resourceConstraints": {
+        "useLimitations": "Refererer til NLOD"
+      },
+      "legalConstraints": {
+        "accessConstraints": "Åpne data",
+        "useConstraints": "Lisens",
+        "license": "Norsk lisens for offentlige data (NLOD)",
+        "licenseUrl": "http://data.norge.no/nlod/no/1.0",
+        "otherConstraints": "Kopidata fra NGU/DMF skal ikke, uten at spesiell tillatelse er gitt, gjenbrukes i webtjenester som kunden/brukeren selv måtte ønske å sette opp for intern/ekstern viderebruk. Ønsker kunden/brukeren å inkludere data fra parten i egne løsninger skal de tilrettelagte WMS-tjenestene benyttes direkte i løsningene."
+      },
+      "securityConstraints": {
+        "classification": "Ugradert"
+      }
     },
-    "responsibleParties": [
+    "contact": [
       {
-        "name": "Mineralutvinning",
-        "organization": "Direktoratet for mineralforvaltning",
-        "email": "post@dirmin.no",
+        "individualName": "Mineralutvinning",
+        "organizationName": "Direktoratet for mineralforvaltning",
+        "electronicMailAddress": "post@dirmin.no",
         "role": "owner"
       },
       {
-        "name": "IT-utvikling",
-        "organization": "Direktoratet for mineralforvaltning",
-        "email": "post@dirmin.no",
+        "individualName": "IT-utvikling",
+        "organizationName": "Direktoratet for mineralforvaltning",
+        "electronicMailAddress": "post@dirmin.no",
         "role": "pointOfContact"
       },
       {
-        "name": "IT-utvikling",
-        "organization": "Direktoratet for mineralforvaltning",
-        "email": "post@dirmin.no",
+        "individualName": "IT-utvikling",
+        "organizationName": "Direktoratet for mineralforvaltning",
+        "electronicMailAddress": "post@dirmin.no",
         "role": "publisher"
       }
     ],
-    "organizationLogoUrl": "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png",
-    "supplementalInformation": "Rettigheter er definert av lov om erverv og utvinning av mineralressurser (mineralloven) §7. Undersøkelsesrettigheter er merket \"UN\", utvinningsrettigheter er merket \"UT\". Kandidat til det offentlige kartlaget (DOK).\nDatasettet brukes av myndighetene til å forvalte rettighetsområdene og å gi interessenter innsyn i hvilke områder som er belagt, og inngår i WMS-tjenesten Bergrettigheter. Kandidat til det offentlige kartlaget (DOK)."
-  },
-  "scope": {
-    "level": "dataset",
+    "maintenance": "Kontinuerlig",
     "extent": {
-      "spatial": {
-        "spatialScope": "National"
-      },
-      "temporal": {
-        "interval": [
-          [
-            "2009-06-01",
-            "2026-02-23"
-          ]
-        ]
+      "temporalElement": {
+        "timePeriod": {
+          "beginPosition": "2009-06-01",
+          "endPosition": "2026-03-02"
+        }
       }
     },
-    "legalConstraints": {
-      "useLimitation": "Refererer til NLOD",
-      "accessConstraints": "Åpne data",
-      "useConstraints": "Lisens",
-      "license": "Norsk lisens for offentlige data (NLOD)",
-      "licenseUrl": "http://data.norge.no/nlod/no/1.0",
-      "securityConstraints": "Ugradert"
+    "date": {
+      "creation": "2009-06-01",
+      "publication": "2009-06-01",
+      "revision": "2026-03-02"
+    },
+    "language": "nor"
+  },
+  "scopeSection": [
+    {
+      "specificationScope": {
+        "scopeIdentification": "hele datasettet",
+        "level": "dataset",
+        "extent": {
+          "description": "National"
+        }
+      }
     }
+  ],
+  "dataContentAndStructureSection": {
+    "narrativeDescription": "Mineralske undersøkelser, arealplanlegging, kommuneplanens arealdel, detaljplanlegging"
   },
-  "dataContent": {
-    "usage": "Mineralske undersøkelser, arealplanlegging, kommuneplanens arealdel, detaljplanlegging"
-  },
-  "referenceSystems": {
-    "spatialReferenceSystems": [
+  "referenceSystemSection": {
+    "spatialReferenceSystem": [
       {
         "code": "EPSG:25832",
         "name": "EUREF89 UTM sone 32, 2d"
@@ -119,129 +151,149 @@
         "code": "EPSG:25832",
         "name": "EUREF89 UTM sone 32, 2d"
       }
-    ],
-    "spatialRepresentationType": "Vektor"
+    ]
   },
-  "dataQuality": {
+  "dataQualitySection": {
     "scope": {
       "level": "dataset"
     },
-    "qualityElements": [
+    "report": [
       {
-        "name": "COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services",
-        "measure": "Dataene er ikke vurdert iht produktspesifikasjonen"
+        "nameOfMeasure": "COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services",
+        "measureDescription": "Dataene er ikke vurdert iht produktspesifikasjonen",
+        "descriptiveResult": "Dataene er ikke vurdert iht produktspesifikasjonen"
       },
       {
-        "name": "SOSI produktspesifikasjon: Bergrettigheter",
-        "measure": "Dataene er i henhold til produktspesifikasjonen"
+        "nameOfMeasure": "SOSI produktspesifikasjon: Bergrettigheter",
+        "measureDescription": "Dataene er i henhold til produktspesifikasjonen",
+        "descriptiveResult": "Dataene er i henhold til produktspesifikasjonen"
       },
       {
-        "name": "Sosi applikasjonsskjema",
-        "measure": "SOSI-filer er i henhold til applikasjonsskjema"
+        "nameOfMeasure": "Sosi applikasjonsskjema",
+        "measureDescription": "SOSI-filer er i henhold til applikasjonsskjema",
+        "descriptiveResult": "SOSI-filer er i henhold til applikasjonsskjema"
       },
       {
-        "name": "Sosi applikasjonsskjema",
-        "measure": "GML-filer er i henhold til applikasjonsskjema"
+        "nameOfMeasure": "Sosi applikasjonsskjema",
+        "measureDescription": "GML-filer er i henhold til applikasjonsskjema",
+        "descriptiveResult": "GML-filer er i henhold til applikasjonsskjema"
       },
       {
-        "name": "Prosentvis oppfyllelse av FAIR-prinsipper",
-        "measure": "Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)",
+        "nameOfMeasure": "Prosentvis oppfyllelse av FAIR-prinsipper",
+        "measureDescription": "Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)",
         "result": "96"
       },
       {
-        "name": "FAIR",
+        "nameOfMeasure": "FAIR",
         "result": "Prosentvis oppfyllelse av FAIR-prinsipper: 96%"
       }
     ],
-    "lineage": {
+    "resourceLineage": {
       "statement": "Rettigheter er definert av lov om erverv og utvinning av mineralressurser (mineralloven) §7. Undersøkelsesrettigheter er merket \"UN\", utvinningsrettigheter er merket \"UT\". Kandidat til det offentlige kartlaget (DOK).\nDatasettet brukes av myndighetene til å forvalte rettighetsområdene og å gi interessenter innsyn i hvilke områder som er belagt, og inngår i WMS-tjenesten Bergrettigheter. Kandidat til det offentlige kartlaget (DOK)."
     }
   },
   "maintenanceSection": {
     "maintenanceAndUpdateFrequency": "Kontinuerlig",
-    "maintenanceNote": "Mineralske undersøkelser, arealplanlegging, kommuneplanens arealdel, detaljplanlegging",
     "maintenanceAndUpdateStatement": "Kontinuerlig oppdatert"
   },
   "portrayal": {
-    "legendDescriptionUrl": "https://register.geonorge.no/tegneregler/bergrettigheter"
+    "name": "Tegneregler",
+    "linkage": "https://register.geonorge.no/tegneregler/bergrettigheter"
   },
-  "delivery": {
-    "distributions": [
-      {
-        "format": {
-          "format": "GEONORGE:DOWNLOAD"
-        },
-        "access": {
-          "href": "https://nedlasting.geonorge.no/api/capabilities/",
-          "protocol": "GEONORGE:DOWNLOAD"
+  "deliverySection": [
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "GEONORGE:DOWNLOAD",
+          "deliveryService": {
+            "serviceEndpoint": "https://nedlasting.geonorge.no/api/capabilities/",
+            "serviceProperty": {
+              "type": "GEONORGE:DOWNLOAD",
+              "value": "GEONORGE:DOWNLOAD"
+            }
+          }
         }
-      },
-      {
-        "title": "Geonorge nedlastning",
-        "format": {
-          "format": "Geonorge nedlastning"
-        },
-        "access": {
-          "href": "https://nedlasting.geonorge.no/api/capabilities/",
-          "protocol": "GEONORGE:DOWNLOAD"
-        }
-      },
-      {
-        "title": "Bergrettigheter WMS",
-        "format": {
-          "format": "OGC WMS"
-        },
-        "access": {
-          "href": "https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer?request=GetCapabilities&service=WMS",
-          "protocol": "WMS-tjeneste",
-          "license": "Åpne data"
-        },
-        "notes": "Tjeneste"
       }
-    ]
-  },
-  "metadata": {
-    "standard": "ISO19115",
-    "standardVersion": "2003",
-    "metadataDate": "2026-02-24",
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "Geonorge nedlastning",
+          "deliveryService": {
+            "serviceEndpoint": "https://nedlasting.geonorge.no/api/capabilities/",
+            "serviceProperty": {
+              "type": "Geonorge nedlastning",
+              "value": "GEONORGE:DOWNLOAD"
+            }
+          }
+        }
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "Bergrettigheter WMS",
+          "deliveryService": {
+            "serviceEndpoint": "https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer?request=GetCapabilities&service=WMS",
+            "serviceProperty": {
+              "type": "Bergrettigheter WMS",
+              "value": "WMS-tjeneste"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "OGC WMS",
+            "version": "1.3.0"
+          }
+        ],
+        "deliveryScope": "Tjeneste"
+      }
+    }
+  ],
+  "metadataSection": {
+    "metadataStandard": "ISO19115",
+    "metadataStandardVersion": "2003",
+    "metadataDate": "2026-03-03",
     "language": "nor",
-    "pointOfContact": {
-      "organization": "Direktoratet for mineralforvaltning",
-      "email": "post@dirmin.no",
+    "contact": {
+      "organizationName": "Direktoratet for mineralforvaltning",
+      "individualName": "IT-utvikling",
+      "logo": "https://register.geonorge.no/data/organizations/974760282_DMF_liten.png",
+      "electronicMailAddress": "post@dirmin.no",
       "role": "pointOfContact"
     },
-    "identifiers": [
+    "metadataIdentifier": {
+      "authority": "Geonorge",
+      "code": "b3c319bd-910d-4663-8ce8-23a246afe879",
+      "codeSpace": "https://kartkatalog.geonorge.no/metadata/",
+      "metadataLinkage": "https://kartkatalog.geonorge.no/metadata/b3c319bd-910d-4663-8ce8-23a246afe879"
+    },
+    "links": [
       {
-        "authority": "geonorge",
-        "code": "b3c319bd-910d-4663-8ce8-23a246afe879"
+        "href": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=b3c319bd-910d-4663-8ce8-23a246afe879",
+        "rel": "describedby",
+        "type": "application/xml",
+        "title": "Metadata (ISO 19139)"
+      },
+      {
+        "href": "https://nedlasting.geonorge.no/api/capabilities/",
+        "rel": "enclosure",
+        "type": "text/html",
+        "title": "Nedlasting"
+      },
+      {
+        "href": "#!?zoom=3&lon=306722&lat=7197864&wms=https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer",
+        "rel": "service",
+        "type": "text/html",
+        "title": "Tjeneste"
+      },
+      {
+        "href": "https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer?request=GetCapabilities&service=WMS",
+        "rel": "service",
+        "type": "application/xml",
+        "title": "Tjeneste-distribusjon"
       }
-    ],
-    "metadataUrl": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=b3c319bd-910d-4663-8ce8-23a246afe879"
-  },
-  "links": [
-    {
-      "href": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=b3c319bd-910d-4663-8ce8-23a246afe879",
-      "rel": "describedby",
-      "type": "application/xml",
-      "title": "Metadata (ISO 19139)"
-    },
-    {
-      "href": "https://nedlasting.geonorge.no/api/capabilities/",
-      "rel": "enclosure",
-      "type": "text/html",
-      "title": "Nedlasting"
-    },
-    {
-      "href": "#!?zoom=3&lon=306722&lat=7197864&wms=https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer",
-      "rel": "service",
-      "type": "text/html",
-      "title": "Tjeneste"
-    },
-    {
-      "href": "https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer?request=GetCapabilities&service=WMS",
-      "rel": "service",
-      "type": "application/xml",
-      "title": "Tjeneste-distribusjon"
-    }
-  ]
+    ]
+  }
 }

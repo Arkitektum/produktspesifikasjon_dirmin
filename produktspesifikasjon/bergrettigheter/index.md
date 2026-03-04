@@ -24,7 +24,7 @@ Bergrettigheter
 
 ### Referansedato
 
-2026-02-23
+2026-03-02
 
 ### Ansvarlig organisasjon
 
@@ -54,25 +54,15 @@ Rettigheter er definert av lov om erverv og utvinning av mineralressurser (miner
 
 ## Spesifikasjonsomfang
 
-**Nivå**: dataset
+- **Omfang**:
 
-**Utstrekning**:
-
-- **romlig**: - **romlig omfang**: National
-- **tidsmessig**: - **intervall**: - 2009-06-01, 2026-02-23
-
-**Juridiske begrensninger**:
-
-- **Bruksbegrensninger**: Refererer til NLOD
-- **Tilgangsbegrensninger**: Åpne data
-- **Bruksbegrensninger**: Lisens
-- **Lisens**: Norsk lisens for offentlige data (NLOD)
-- **Lisenslenke**: <http://data.norge.no/nlod/no/1.0>
-- **Sikkerhetsbegrensninger**: Ugradert
+  - **Identifikasjon**: hele datasettet
+  - **Nivå**: dataset
+  - **Utstrekning**: - **Beskrivelse**: National
 
 ## Innhold og struktur
 
-**Bruk**: Mineralske undersøkelser, arealplanlegging, kommuneplanens arealdel, detaljplanlegging
+**Beskrivelse**: Mineralske undersøkelser, arealplanlegging, kommuneplanens arealdel, detaljplanlegging
 
 ### Datamodell
 
@@ -908,29 +898,31 @@ Egenskaper
 - **kode**: EPSG:25832
   **navn**: EUREF89 UTM sone 32, 2d
 
-**Romlig representasjonstype**: Vektor
-
 ## Kvalitet
 
 **Nivå**: dataset
 
-- **navn**: COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services
-  **Måleparameter**: Dataene er ikke vurdert iht produktspesifikasjonen
+- **Kvalitetsmål**: COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services
+  **Målebeskrivelse**: Dataene er ikke vurdert iht produktspesifikasjonen
+  **Beskrivende resultat**: Dataene er ikke vurdert iht produktspesifikasjonen
 
-- **navn**: SOSI produktspesifikasjon: Bergrettigheter
-  **Måleparameter**: Dataene er i henhold til produktspesifikasjonen
+- **Kvalitetsmål**: SOSI produktspesifikasjon: Bergrettigheter
+  **Målebeskrivelse**: Dataene er i henhold til produktspesifikasjonen
+  **Beskrivende resultat**: Dataene er i henhold til produktspesifikasjonen
 
-- **navn**: Sosi applikasjonsskjema
-  **Måleparameter**: SOSI-filer er i henhold til applikasjonsskjema
+- **Kvalitetsmål**: Sosi applikasjonsskjema
+  **Målebeskrivelse**: SOSI-filer er i henhold til applikasjonsskjema
+  **Beskrivende resultat**: SOSI-filer er i henhold til applikasjonsskjema
 
-- **navn**: Sosi applikasjonsskjema
-  **Måleparameter**: GML-filer er i henhold til applikasjonsskjema
+- **Kvalitetsmål**: Sosi applikasjonsskjema
+  **Målebeskrivelse**: GML-filer er i henhold til applikasjonsskjema
+  **Beskrivende resultat**: GML-filer er i henhold til applikasjonsskjema
 
-- **navn**: Prosentvis oppfyllelse av FAIR-prinsipper
-  **Måleparameter**: Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)
+- **Kvalitetsmål**: Prosentvis oppfyllelse av FAIR-prinsipper
+  **Målebeskrivelse**: Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)
   **Resultat**: 96
 
-- **navn**: FAIR
+- **Kvalitetsmål**: FAIR
   **Resultat**: Prosentvis oppfyllelse av FAIR-prinsipper: 96%
 
 **Beskrivelse**:
@@ -941,61 +933,94 @@ Datasettet brukes av myndighetene til å forvalte rettighetsområdene og å gi i
 
 **Vedlikeholdsfrekvens**: Kontinuerlig
 
-**Vedlikeholdsnotat**: Mineralske undersøkelser, arealplanlegging, kommuneplanens arealdel, detaljplanlegging
-
 **Status**: Kontinuerlig oppdatert
 
 ## Presentasjon
 
-**Tegnforklaring**:
+**navn**: Tegneregler
+
+**Lenke**:
 <https://register.geonorge.no/tegneregler/bergrettigheter>
 
 ## Leveranse
 
-**Distribusjoner**:
+- **Leveranse**:
 
-- **format**: - **format**: GEONORGE:DOWNLOAD
-  **tilgang**:
+  - **Leveransemedium**:
+    - **Medienavn**: GEONORGE:DOWNLOAD
+    - **Leveransetjeneste**:
+      - **Tjenesteendepunkt**: <https://nedlasting.geonorge.no/api/capabilities/>
+      - **Tjenesteegenskap**:
+        - **type**: GEONORGE:DOWNLOAD
+        - **Verdi**: GEONORGE:DOWNLOAD
 
-  - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
-  - **protokoll**: GEONORGE:DOWNLOAD
+- **Leveranse**:
 
-- **tittel**: Geonorge nedlastning
-  **format**: - **format**: Geonorge nedlastning
-  **tilgang**:
+  - **Leveransemedium**:
+    - **Medienavn**: Geonorge nedlastning
+    - **Leveransetjeneste**:
+      - **Tjenesteendepunkt**: <https://nedlasting.geonorge.no/api/capabilities/>
+      - **Tjenesteegenskap**:
+        - **type**: Geonorge nedlastning
+        - **Verdi**: GEONORGE:DOWNLOAD
 
-  - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
-  - **protokoll**: GEONORGE:DOWNLOAD
+- **Leveranse**:
 
-- **tittel**: Bergrettigheter WMS
-  **format**: - **format**: OGC WMS
-  **tilgang**:
-
-  - **lenke**: <https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer?request=GetCapabilities&service=WMS>
-  - **protokoll**: WMS-tjeneste
-  - **Lisens**: Åpne data
-  **Notater**: Tjeneste
+  - **Leveransemedium**:
+    - **Medienavn**: Bergrettigheter WMS
+    - **Leveransetjeneste**:
+      - **Tjenesteendepunkt**: <https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer?request=GetCapabilities&service=WMS>
+      - **Tjenesteegenskap**:
+        - **type**: Bergrettigheter WMS
+        - **Verdi**: WMS-tjeneste
+  - **Leveranseformat**:
+    - **Formatnavn**: OGC WMS
+      **versjon**: 1.3.0
+  - **Leveranseomfang**: Tjeneste
 
 ## Metadata
 
-**Standard**: ISO19115
+**Metadatastandard**: ISO19115
 
-**Standardversjon**: 2003
+**Metadatastandardversjon**: 2003
 
-**Metadatadato**: 2026-02-24
+**Metadatadato**: 2026-03-03
 
 **språk**: nor
 
-**Kontaktpunkt**:
+**Kontakt**:
 
-- **organisasjon**: Direktoratet for mineralforvaltning
-- **epost**: post@dirmin.no
+- **Organisasjon**: Direktoratet for mineralforvaltning
+- **Kontaktperson**: IT-utvikling
+- **Logo**: <https://register.geonorge.no/data/organizations/974760282_DMF_liten.png>
+- **Epost**: post@dirmin.no
 - **rolle**: pointOfContact
 
-**Identifikatorer**:
+**Metadataidentifikator**:
 
-- **Utsteder**: geonorge
-  **kode**: b3c319bd-910d-4663-8ce8-23a246afe879
+- **Utsteder**: Geonorge
+- **kode**: b3c319bd-910d-4663-8ce8-23a246afe879
+- **koderom**: <https://kartkatalog.geonorge.no/metadata/>
+- **Metadatalenke**: <https://kartkatalog.geonorge.no/metadata/b3c319bd-910d-4663-8ce8-23a246afe879>
 
-**Metadatalenke**:
-<https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=b3c319bd-910d-4663-8ce8-23a246afe879>
+**Lenker**:
+
+- **lenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=b3c319bd-910d-4663-8ce8-23a246afe879>
+  **relasjon**: describedby
+  **type**: application/xml
+  **tittel**: Metadata (ISO 19139)
+
+- **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
+  **relasjon**: enclosure
+  **type**: text/html
+  **tittel**: Nedlasting
+
+- **lenke**: #!?zoom=3&lon=306722&lat=7197864&wms=<https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer>
+  **relasjon**: service
+  **type**: text/html
+  **tittel**: Tjeneste
+
+- **lenke**: <https://kart.dirmin.no/dirmin/services/Bergrettigheter/MapServer/WmsServer?request=GetCapabilities&service=WMS>
+  **relasjon**: service
+  **type**: application/xml
+  **tittel**: Tjeneste-distribusjon
