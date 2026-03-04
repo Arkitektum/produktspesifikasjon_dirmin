@@ -44,30 +44,14 @@ The mineral rights reports give an overview over the exploration work performed 
 
 ## Spesifikasjonsomfang
 
-**Nivå**: service
+- **Omfang**:
 
-**Utstrekning**:
-
-- **romlig**:
-  - **bbox**: 2.0, 57.0, 33.0, 72.0
-  - **avgrensning**:
-    - **vest**: 2.0
-    - **sør**: 57.0
-    - **øst**: 33.0
-    - **nord**: 72.0
-- **tidsmessig**: - **intervall**: - 2018-04-27, 2018-04-27
-
-**Juridiske begrensninger**:
-
-- **Tilgangsbegrensninger**: Åpne data
-- **Bruksbegrensninger**: Lisens
-- **Lisens**: Norsk lisens for offentlige data (NLOD)
-- **Lisenslenke**: <http://data.norge.no/nlod/no/1.0>
-- **Sikkerhetsbegrensninger**: Begrenset
+  - **Identifikasjon**: hele datasettet
+  - **Nivå**: service
 
 ## Innhold og struktur
 
-**Bruk**: Rapportene kan brukes til å få en oversikt over hva som er utført av arbeider i områder med bergrettigheter for å øke kunnskapen om de mineralske ressurser til stede.
+**Beskrivelse**: Rapportene kan brukes til å få en oversikt over hva som er utført av arbeider i områder med bergrettigheter for å øke kunnskapen om de mineralske ressurser til stede.
 
 ### Datamodell
 
@@ -240,45 +224,61 @@ Egenskaper
 
 **Vedlikeholdsfrekvens**: Kontinuerlig
 
-**Vedlikeholdsnotat**: Rapportene kan brukes til å få en oversikt over hva som er utført av arbeider i områder med bergrettigheter for å øke kunnskapen om de mineralske ressurser til stede.
-
 ## Leveranse
 
-**Distribusjoner**:
+- **Leveranse**:
 
-- **format**: - **format**: OGC:WMS
-  **tilgang**:
+  - **Leveransemedium**:
+    - **Medienavn**: OGC:WMS
+    - **Leveransetjeneste**:
+      - **Tjenesteendepunkt**: <https://kart.dirmin.no/dirmin/services/UndersoekelseRapporter/MapServer/WMSServer?request=GetCapabilities&service=WMS>
+      - **Tjenesteegenskap**:
+        - **type**: OGC:WMS
+        - **Verdi**: OGC:WMS
 
-  - **lenke**: <https://kart.dirmin.no/dirmin/services/UndersoekelseRapporter/MapServer/WMSServer?request=GetCapabilities&service=WMS>
-  - **protokoll**: OGC:WMS
+- **Leveranse**:
 
-- **tittel**: WMS-tjeneste
-  **format**: - **format**: WMS-tjeneste
-  **tilgang**:
-
-  - **lenke**: <https://kart.dirmin.no/dirmin/services/UndersoekelseRapporter/MapServer/WMSServer?request=GetCapabilities&service=WMS>
-  - **protokoll**: OGC:WMS
+  - **Leveransemedium**:
+    - **Medienavn**: WMS-tjeneste
+    - **Leveransetjeneste**:
+      - **Tjenesteendepunkt**: <https://kart.dirmin.no/dirmin/services/UndersoekelseRapporter/MapServer/WMSServer?request=GetCapabilities&service=WMS>
+      - **Tjenesteegenskap**:
+        - **type**: WMS-tjeneste
+        - **Verdi**: OGC:WMS
 
 ## Metadata
 
-**Standard**: ISO19115
+**Metadatastandard**: ISO19115
 
-**Standardversjon**: 2003
+**Metadatastandardversjon**: 2003
 
 **Metadatadato**: 2023-01-12
 
 **språk**: nor
 
-**Kontaktpunkt**:
+**Kontakt**:
 
-- **organisasjon**: Direktoratet for mineralforvaltning
-- **epost**: post@dirmin.no
+- **Organisasjon**: Direktoratet for mineralforvaltning
+- **Kontaktperson**: IT-utvikling
+- **Logo**: <https://register.geonorge.no/data/organizations/974760282_DMF_liten.png>
+- **Epost**: post@dirmin.no
 - **rolle**: pointOfContact
 
-**Identifikatorer**:
+**Metadataidentifikator**:
 
-- **Utsteder**: geonorge
-  **kode**: 3f59e82c-217b-4092-a1dc-6327a9c3bfbf
+- **Utsteder**: Geonorge
+- **kode**: 3f59e82c-217b-4092-a1dc-6327a9c3bfbf
+- **koderom**: <https://kartkatalog.geonorge.no/metadata/>
+- **Metadatalenke**: <https://kartkatalog.geonorge.no/metadata/3f59e82c-217b-4092-a1dc-6327a9c3bfbf>
 
-**Metadatalenke**:
-<https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=3f59e82c-217b-4092-a1dc-6327a9c3bfbf>
+**Lenker**:
+
+- **lenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=3f59e82c-217b-4092-a1dc-6327a9c3bfbf>
+  **relasjon**: describedby
+  **type**: application/xml
+  **tittel**: Metadata (ISO 19139)
+
+- **lenke**: <https://kart.dirmin.no/dirmin/services/UndersoekelseRapporter/MapServer/WMSServer?request=GetCapabilities&service=WMS>
+  **relasjon**: enclosure
+  **type**: text/html
+  **tittel**: Nedlasting
