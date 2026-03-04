@@ -40,22 +40,10 @@ Nedlastbare data om uttak, konsesjoner og bergrettigheter som faller innenfor Di
 
 ## Spesifikasjonsomfang
 
-**Nivå**: dataset
+- **Omfang**:
 
-**Utstrekning**:
-
-- **romlig**:
-  - **bbox**: 2.0, 57.0, 33.0, 72.0
-  - **avgrensning**:
-    - **vest**: 2.0
-    - **sør**: 57.0
-    - **øst**: 33.0
-    - **nord**: 72.0
-- **tidsmessig**: - **intervall**: - 2024-04-24, 2024-04-24
-
-**Juridiske begrensninger**:
-
-- **Bruksbegrensninger**: Andre restriksjoner
+  - **Identifikasjon**: hele datasettet
+  - **Nivå**: dataset
 
 ## Innhold og struktur
 
@@ -318,30 +306,40 @@ Egenskaper
 
 ## Leveranse
 
-**Distribusjoner**:
-
-- **tilgang**: - **lenke**: <https://dirmin.no/data>
+- **Leveranse**: - **Leveransemedium**: - **Leveransetjeneste**: - **Tjenesteendepunkt**: <https://dirmin.no/data>
 
 ## Metadata
 
-**Standard**: ISO19115:Norsk versjon
+**Metadatastandard**: ISO19115:Norsk versjon
 
-**Standardversjon**: 2003
+**Metadatastandardversjon**: 2003
 
 **Metadatadato**: 2024-10-31
 
 **språk**: nor
 
-**Kontaktpunkt**:
+**Kontakt**:
 
-- **organisasjon**: Direktoratet for mineralforvaltning
-- **epost**: post@dirmin.no
+- **Organisasjon**: Direktoratet for mineralforvaltning
+- **Logo**: <https://register.geonorge.no/data/organizations/974760282_DMF_liten.png>
+- **Epost**: post@dirmin.no
 - **rolle**: pointOfContact
 
-**Identifikatorer**:
+**Metadataidentifikator**:
 
-- **Utsteder**: geonorge
-  **kode**: 5e1500e8-1967-4721-86c5-7e87b561feca
+- **Utsteder**: Geonorge
+- **kode**: 5e1500e8-1967-4721-86c5-7e87b561feca
+- **koderom**: <https://kartkatalog.geonorge.no/metadata/>
+- **Metadatalenke**: <https://kartkatalog.geonorge.no/metadata/5e1500e8-1967-4721-86c5-7e87b561feca>
 
-**Metadatalenke**:
-<https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=5e1500e8-1967-4721-86c5-7e87b561feca>
+**Lenker**:
+
+- **lenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=5e1500e8-1967-4721-86c5-7e87b561feca>
+  **relasjon**: describedby
+  **type**: application/xml
+  **tittel**: Metadata (ISO 19139)
+
+- **lenke**: <https://dirmin.no/data>
+  **relasjon**: enclosure
+  **type**: text/html
+  **tittel**: Nedlasting
